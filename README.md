@@ -14,13 +14,21 @@ https://github.com/nekrophantom/flutter-task-app.git
 
 **Step 2:**
 
+Copy the example env file and make the required configuration changes in the .env file: 
+
+```
+cp .env.example .env
+```
+
+**Step 3:**
+
 Go to project root and execute the following command in terminal to get the required dependencies: 
 
 ```
 flutter pub get 
 ```
 
-**Step 3:**
+**Step 4:**
 
 Go to project root and execute the following command in terminal to run the app: 
 
