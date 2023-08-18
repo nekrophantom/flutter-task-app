@@ -88,6 +88,7 @@ class LoginView extends ConsumerWidget {
                             onPressed: () async {
                               final response = await authService.login(emailController.text, passwordController.text);
                               
+                              
                             }, 
                             child: const Text('Sign in', style: TextStyle(fontSize: 18),)
                           ),
